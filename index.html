@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="image">
+                <img src="./mug.jpg" alt="">
+            </div>
+            <div class="des">
+                <h4 class="col">C O F F E E &nbsp; M U G</h4>
+                <h1 class="font-bold">White Coffee Mug</h1>
+                <p class="des-mug col">Coffee Mugs are designed to express emotions. These are acclaimer for their amazing design & superior quality</p>
+                <div class="price">
+                    <h1>₹149</h1>
+                    <h4 class="col"><del>₹230</del></h4>
+                </div>
+                <div class="cart">
+                    <img src="https://bit.ly/3Q6Adni" alt="" class="cart-img">
+                    <h4>Add to cart</h4>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
+
+
+
+
+
+*{
+    margin: 0;
+    padding:0;
+}
+.wrapper{
+    background-color: rgb(247, 195, 177);
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    height: 350px;
+    width: 550px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns:270px 270px;
+}
+img{
+    height: 350px;
+    border-radius: 20px 0 0 20px;
+}
+.col{
+    color: rgb(92, 92, 92);
+}
+.des-mug{
+    margin-top: 10px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.des{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.price{
+    display: flex;
+    align-items:baseline;
+    gap: 15px;
+    margin-bottom: 10px;
+   
+}
+.price h1{
+    color: rgb(61, 152, 155);
+}
+.font-bold{
+    font-size: 32px;
+}
+.cart{
+    background-color: rgb(61, 152, 155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+}
+.cart-img{
+    height: 20px;
+}
